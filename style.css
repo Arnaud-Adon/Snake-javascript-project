@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+#canvas {
+  margin-top: 100px;
+}
+
+#score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fefefe;
+  font-size: 40px;
+}
+
+#restart {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fefefe;
+  display: none;
+}
+
+.end_message {
+  color: red;
+  font-size: 40px;
+  text-align: center;
+}
